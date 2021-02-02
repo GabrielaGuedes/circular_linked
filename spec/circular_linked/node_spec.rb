@@ -1,6 +1,6 @@
-require_relative '../../lib/circular-linked-list/node.rb'
+require_relative '../../lib/circular_linked/node.rb'
 
-RSpec.describe CircularLinkedList::Node do
+RSpec.describe CircularLinked::Node do
   describe "#initialize" do
     let(:value) { "Value" }
 
