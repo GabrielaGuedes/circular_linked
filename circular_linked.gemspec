@@ -6,5 +6,6 @@ Gem::Specification.new do |s|
   s.authors     = ['Gabriela Guedes']
   s.email       = 'gabriela.guedes.gmg@gmail.com'
   s.files       = `git ls-files`.split("\n")
+  s.homepage    = 'https://rubygems.org/gems/circular_linked'
   s.license       = 'MIT'
 end
