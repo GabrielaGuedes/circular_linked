@@ -35,7 +35,7 @@ empty_list.head #=> nil
 
 items_list.add(4) # List now have nodes with the values: 1, 2, 3, 4
 
-items_list.last_node #=> 4
+items_list.last_node #=> #<Node:0x... @value=4 ...
 empty_list.last_node #=> nil
 
 items_list.find(2) #=> #<Node:0x... @value=2 ...
